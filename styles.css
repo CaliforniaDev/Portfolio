@@ -42,6 +42,44 @@ nav a {
   color: white;
   transform: translate(-50%, -50%);
 }
+h1 {
+  text-align: center;
+  padding-top: 20px;
+
+}
+.main-section {
+  max-width: 1200px;
+  height: 100vh;
+  margin: auto;
+
+}
+.row {
+  margin: 8px -16px;
+}
+.row,
+.row > .column {
+  padding: 8px;
+
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.project-tile {
+  background-color: white;
+  margin: auto;
+  padding: 10px;
+}
+h2 {
+  background-color: brown;
+  text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
   nav {
     position: relative;
