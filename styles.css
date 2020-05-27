@@ -72,7 +72,7 @@ article {
   min-width: 600px;
   height: 100vh;
   float: right;
-  background-color: blue;
+  border: 5px solid blue;
   transform: skew(20deg);
   margin-right: 90px;
 }
@@ -90,6 +90,9 @@ article {
     width: 100%;
     transform: skew(0deg);
     margin: 0;
+  }
+  .welcome-column:nth-child(1) {
+    border-left: 10px solid #0ab0bd;
   }
   .welcome-column img {
     transform: skew(0deg);
